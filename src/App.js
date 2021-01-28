@@ -4,6 +4,7 @@ import myLogo from './media/myLogo.png';
 import pandasLogo from './media/pandasLogo.svg.png';
 import scikitlearnLogo from './media/scikit-learnLogo.png';
 import numpyLogo from './media/numpyLogo.svg';
+import project11 from './media/project11.jpg';
 import project1Img from './media/project1.png';
 import project1Mp4 from './media/project1.mp4';
 import project2Img from './media/project2.jpg';
@@ -59,38 +60,39 @@ class App extends Component{
 
 				<heading id="projects" className="sectionHeading"> Projects</heading>
 		      	<projects className="projects">
-		      		<h2 className="projectHeading">Breed-Analysis</h2>
+		      		<h2 className="projectHeading">Spotting-Dog-Breed</h2>
 					<div className="projectItems"> 
 	                		
 		  				
 	  					<div className="projectImg">
 	  						<Tilt className="Tilt" options={{max:15 }} >
-								<img src={project2Img} style={{border:"1vw solid white"}} className="Tilt-inner" alt="logo" />
+								<img src={project11} style={{border:"1vw solid white"}} className="Tilt-inner" alt="logo" />
 							</Tilt> 	
 				      		
 			  			</div>
 			  			<div className="projectDetails">
 		  					<h3 className="projectLogos">
 			  					< a style={{color:"#E44D26"}}/> Google Colab
-			  					&nbsp;&nbsp; < b style={{color:"#3C99DC"}}/>Pandas 
-			  					&nbsp;&nbsp;< c style={{color:"#F0DB4F"}}/>Numpy
+			  					&nbsp;&nbsp; <d style={{color:"#61DBFB"}}/>Pandas
+			  					&nbsp;&nbsp; <d style={{color:"#61DBFB"}}/>Numpy
 			  					&nbsp;&nbsp; <d style={{color:"#61DBFB"}}/>Matplotlib
-			  					&nbsp;&nbsp; <e style={{color:"#3C873A"}} />Scikit-learn
+			  					&nbsp;&nbsp; < b style={{color:"#3C99DC"}}/>TensorFlow
+			  					&nbsp;&nbsp;< c style={{color:"#F0DB4F"}}/>Keras API
+			  					&nbsp;&nbsp; <e style={{color:"#3C873A"}} />mobilenet_v2
 
 		  					</h3>
 
 		  					
 		  					<ul className=" pt4 pb3 projectList">
-		  						<li>RESTful API</li>
-		  						<li>Responsive UI</li>
-		  						<li>Human Face Detection from image URL</li>
-		  						<li>Registration/Sign-In form</li>
-		  						<li>Connected to the Clarifai API </li>
-		  						<li>Store user entries in the database </li>
+		  						<li>Preporessed images into numbers and normalized the data</li>
+		  						<li>Built the model using Keras API and using mobilenet_v2 from tenserflow hub</li>
+		  						<li>Trained the model on more than 10,000 images</li>
+		  						<li>Tested the model and calcualed the prediction probalilies for each bread</li>
+		  						
 		  					</ul>
-		  					<a href="https://smart-sense.herokuapp.com/"><button className="btn">See Live</button></a>
+		  					<a href="https://github.com/gur-p-reet/dog-breed-identification"><button className="btn">See Live</button></a>
 		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  					  <a href="https://github.com/gur-p-reet/smartSense" style={{fontSize:"20px"}}>Source Code </a>
+		  					  <a href="https://github.com/gur-p-reet/dog-breed-identification" style={{fontSize:"20px"}}>Source Code </a>
 				</div>	
 					</div> 
 
