@@ -20,7 +20,7 @@ import "animate.css/animate.min.css";
 import {GoMail,GoMarkGithub} from 'react-icons/go';
 import {IoLogoLinkedin,IoLogoJavascript} from 'react-icons/io';
 import {BsPersonFill} from 'react-icons/bs';
-import {GrProjects,GrDocumentText} from 'react-icons/gr';
+import {GrProjects,GrDocumentText,GrHadoop} from 'react-icons/gr';
 import {GiAchievement,GiSkills} from 'react-icons/gi';
 import {HiOutlineMail} from 'react-icons/hi';
 import {AiOutlineHtml5} from 'react-icons/ai';
@@ -93,7 +93,7 @@ class App extends Component{
 		  					<a href="https://github.com/gur-p-reet/dog-breed-identification"><button className="btn">See Live</button></a>
 		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		  					  <a href="https://github.com/gur-p-reet/dog-breed-identification" style={{fontSize:"20px"}}>Source Code </a>
-				</div>	
+				        </div>	
 					</div> 
 
 					<h2 className="projectHeading">Smart-Sense</h2>
@@ -256,6 +256,8 @@ class App extends Component{
 						<h3 className="skillsLogo" style={{color:"#005DA6"}}> <SiMicrosoftsqlserver /> <h className="skillsText" >SSMS</h></h3>
 		               {/*	<h3 className="skillsLogo" style={{color:"#3FA037"}}> <SiMongodb /> <h className="skillsText" >MangoDB</h></h3> */}
 		               		<h3 className="skillsLogo" style={{color:"#306998"}}> <SiPostgresql /> <h className="skillsText" >PostgreSQL</h></h3>
+		               	<h3 className="skillsLogo" style={{color:"#306998"}}> <GrHadoop /> <h className="skillsText" >Hadoop</h></h3>
+
 			  		</skills2>
 					<h2 className="skillsTitle" >Software Development</h2>	
 			  			<skills2 className="skills">	    								
