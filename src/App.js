@@ -49,11 +49,11 @@ class App extends Component{
 		    <main className="">
 		    	
 		    	<header className="header bgImg " id="#header">
-						<h2>Hi ! I am Gurpreet Singh </h2>
-			    	    <h3>I am the Analyst you need</h3>
+						<h2>Gurpreet Singh </h2>
+			    	    <h3></h3>
 				 
 			      	<ScrollAnimation animateIn=" hireBox shutterLeft">	
-					    <p className=" f3"> Hire Me </p>	
+					    <p className="f3"> Data Analyst </p>	
 					</ScrollAnimation>      	
 				
 				</header>
@@ -243,7 +243,7 @@ class App extends Component{
 
  				<heading id="skills" className="sectionHeading">Skills</heading>
 			    <skills >		
-			    	<h2 className="skillsTitle">Data Sciecne</h2>
+			    	<h2 className="skillsTitle">Data Science</h2>
 					<skills2 className="skills">
 						<h3 className="skillsImg" style={{color:"skyblue"}}> <img src={googleColabLogo} width="80px" alt="" /> <br/><h className="skillsText">Google Colab</h></h3> 
 						<h3 className="skillsLogo" style={{color:"darkorange"}}> <SiJupyter /> <br/><h className="skillsText">Jupyter Notebook</h></h3> 
