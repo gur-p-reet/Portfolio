@@ -4,8 +4,11 @@ import myLogo from './media/myLogo.png';
 import pandasLogo from './media/pandasLogo.svg.png';
 import scikitlearnLogo from './media/scikit-learnLogo.png';
 import numpyLogo from './media/numpyLogo.svg';
-import project11 from './media/project11.jpg';
+import projectHR from './media/projectHR.jpg';
+import reportHR from './media/IBM HR Analytics Employee Attrition and Performance.pdf';
+import project11 from './media/projectDB.jpg';
 import project1Img from './media/project1.png';
+import projectDB from './media/dog-bread-identification.pdf'
 import project1Mp4 from './media/project1.mp4';
 import project2Img from './media/project2.jpg';
 import project3Img from './media/project3.jpg';
@@ -13,6 +16,7 @@ import matplotlibLogo from './media/matplotlibLogo.webp';
 import expressLogo from './media/express.jsLogo.png';
 import googleColabLogo from './media/googlecolabLogo.png';
 import myPicture from './media/profilePicture.jpg';
+import myResume from './media/gurpreetSingh.pdf';
 import Tilt from 'react-tilt';
 
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -25,7 +29,7 @@ import {GiAchievement,GiSkills} from 'react-icons/gi';
 import {HiOutlineMail} from 'react-icons/hi';
 import {AiOutlineHtml5} from 'react-icons/ai';
 import {DiCss3,DiHeroku} from 'react-icons/di';
-import {SiTableau,SiJupyter,SiMicrosoftsqlserver,SiPostgresql,SiTensorflow,SiMicrosoftoffice,SiLatex} from 'react-icons/si';
+import {SiTableau,SiPowerbi,SiJupyter,SiMicrosoftsqlserver,SiPostgresql,SiTensorflow,SiMicrosoftoffice,SiLatex} from 'react-icons/si';
 import {FaJava,FaPython,FaReact,FaAws,FaNode} from 'react-icons/fa';
 import {ImNpm} from 'react-icons/im';
 import {MdPublic} from 'react-icons/md';
@@ -44,7 +48,7 @@ class App extends Component{
 	    		<a href="#skills"><item className="contentItems"> <GiSkills style={{color:"#661313",verticalAlign:"middle"}}/> <h className="contentText" >&nbsp;Skills</h></item></a>
 	    		<a href="#publications"><item className="contentItems"> <MdPublic style={{color:"#661313",verticalAlign:"middle"}}/> <h className="contentText">&nbsp;Publications</h></item></a>
 	    		<a href="#contacts"><item className="contentItems"><HiOutlineMail style={{color:"#ff7f50",verticalAlign:"middle"}}/> <h className="contentText">&nbsp;Contact</h></item></a>
-	    		<a href=""><item className="contentItems"> <GrDocumentText style={{color:"red",verticalAlign:"middle"}}/> <h className="contentText">&nbsp;Resume</h></item></a>
+	    		<a href={myResume} download ><item className="contentItems"> <GrDocumentText style={{color:"red",verticalAlign:"middle"}}/> <h className="contentText">&nbsp;Resume</h></item></a>
 		    </nav>
 		    <main className="">
 		    	
@@ -59,13 +63,51 @@ class App extends Component{
 
 				<heading id="projects" className="sectionHeading"> Projects</heading>
 		      	<projects className="projects">
-		      		<h2 className="projectHeading">Spotting-Dog-Breed</h2>
+
+		      		<h2 className="projectHeading">IBM-HR-Analytics-Employee Attrition</h2>
 					<div className="projectItems"> 
 	                		
 		  				
 	  					<div className="projectImg">
 	  						<Tilt className="Tilt" options={{max:15 }} >
-								<img src={project11} style={{border:"1vw solid white"}} className="Tilt-inner" alt="logo" />
+								<img src={projectHR} style={{border:"1vw solid white"}} className="Tilt-inner pa1 pb1 " alt="logo" />
+							</Tilt> 	
+				      		
+			  			</div>
+			  			<div className="projectDetails">
+		  					<h3 className="projectLogos">
+			  					< a style={{color:"#E44D26"}}/> Jupyter-Notebook
+			  					&nbsp;&nbsp; <d style={{color:"#61DBFB"}}/>Python 
+			  					&nbsp;&nbsp; <d style={{color:"#61DBFB"}}/>Pandas
+			  					&nbsp;&nbsp; <d style={{color:"#61DBFB"}}/>Matplotlib 
+			  					&nbsp;&nbsp; < b style={{color:"#3C99DC"}}/>Scikit-learn
+			  					&nbsp;&nbsp; < b style={{color:"#3C99DC"}}/>LogisticRegression
+			  					&nbsp;&nbsp; < b style={{color:"#3C99DC"}}/>RandomForestClassifier
+			  					&nbsp;&nbsp; < b style={{color:"#3C99DC"}}/>TensorFlow
+			  					&nbsp;&nbsp; < b style={{color:"#3C99DC"}}/>Latex
+		  					</h3>
+		  					
+		  					<ul className=" pt4 pb3 projectList">
+		  						<li>Performed Data Cleaning, Data Transformation and Data Analsis using python programming.</li>
+		  						<li>Utilized Matplotlib and Seaborn libraries for ploting different plots.</li>
+		  						<li>Normalized the data usnig Scikit-learn's MinMaxScaler.</li>
+		  						<li>Data analyis is done with help of multiple types of plots in aroud 50 figures.</li>
+		  						<li>The results of analysis are presented at end of the report which includes relations among themselves different attributes and their effects on attrition.</li>
+		  					    <li>Trained the model using different algorithms (LogisticRegression, RandomForestClassifier and TensorFlow) and checked classification report for each case.</li>
+		  					</ul>
+		  					<a href={reportHR} target='_blank' rel='noopener noreferrer'><button className="btn"> Report.pdf</button></a>
+		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  					  <a href="https://github.com/gur-p-reet/ibm-hr-analytics-employee-attrition" target='_blank' rel='noopener noreferrer' style={{fontSize:"21px"}}>Jupyter Notebook</a>
+				        </div>	
+					</div> 
+
+		      		<h2 className="projectHeading">Dog-Breed-Identification</h2>
+					<div className="projectItems"> 
+	                		
+		  				
+	  					<div className="projectImg">
+	  						<Tilt className="Tilt" options={{max:15 }} >
+								<img src={project11} style={{border:"1vw solid white"}} className=" pa2 pb1 Tilt-inner" alt="logo" />
 							</Tilt> 	
 				      		
 			  			</div>
@@ -83,22 +125,52 @@ class App extends Component{
 
 		  					
 		  					<ul className=" pt4 pb3 projectList">
-		  						<li>Preporessed images into numbers and normalized the data</li>
-		  						<li>Built the model using Keras API and using mobilenet_v2 from tenserflow hub</li>
-		  						<li>Trained the model on more than 10,000 images</li>
-		  						<li>Tested the model and calcualed the prediction probalilies for each bread</li>
-		  						
+		  						<li>Performed Data tranformation using tenserflow's image converter (turned images into numerica data).</li>
+		  						<li>Performed Data normalization.</li>
+		  						<li>Built the model using Keras sequetial layer using mobilenet_v2 from tenserflow hub.</li>
+		  						<li>Trained the model on more than 10,000 images.</li>
+		  						<li>Tested the model and calcualed the dog bread prediction probalilies.</li>
 		  					</ul>
-		  					<a href="https://github.com/gur-p-reet/dog-breed-identification"><button className="btn">See Live</button></a>
+		  					<a href={projectDB} target='_blank' rel='noopener noreferrer' ><button className="btn">Report.pdf</button></a>
 		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  					  <a href="https://github.com/gur-p-reet/dog-breed-identification" style={{fontSize:"20px"}}>Source Code </a>
+		  					<a href="https://github.com/gur-p-reet/dog-breed-identification" target='_blank' rel='noopener noreferrer' style={{fontSize:"21px"}}>Colab Notebook</a>
 				        </div>	
 					</div> 
 
+	   	            <h2 className="projectHeading">Protein-Optimization</h2>
+	                <div className="projectItems"> 
+		             
+	                	<div className="projectImg"> 	
+						     <Tilt className=" pa1 pb2 Tilt" options={{max:15 }} >
+								 <img src={project1Img} className="projectImg" alt="logo" /><br />
+							</Tilt>
+				  	
+			  			</div>	
+		  				<div className="projectDetails">
+		  					<h3 className="f5 projectLogos" > <FaJava style={{color:"#007396"}}/> Java &nbsp; JOGL</h3> 
+		  					<ul className="pt4 pb3 projectList">
+		  						<li>Interactive user interface for input and output.</li>
+		  						<li>Provided multiple options to choose optimization algorithm.</li>
+		  						<li>On-demand hybridzation among different optimization algorithms.</li>
+		  						<li>Flexibility to input amino acid sequence in multiple ways.</li>
+		  						<li>Multiple options to select input parameters.</li>
+		  						<li>Selection based output results and analysis report.</li>
+		  					</ul>
+		  					<div className="pl4 pt3 projectVideo">
+								<video  width="90%" height="auto"  controls>
+									<source src={project1Mp4}  type="video/mp4"/>
+								</video>
+							</div>
+							<br />
+							<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="https://github.com/gur-p-reet/PSP" target='_blank' rel='noopener noreferrer' style={{fontSize:"24px"}}>&nbsp;&nbsp;Source Code</a>
+							</div>	
+					</div> 
+
+
+
 					<h2 className="projectHeading">Smart-Sense</h2>
 					<div className="projectItems"> 
-	                		
-		  				
 	  					<div className="projectImg">
 	  						<Tilt className="Tilt" options={{max:15 }} >
 								<img src={project2Img} style={{border:"1vw solid white"}} className="Tilt-inner" alt="logo" />
@@ -119,7 +191,7 @@ class App extends Component{
 		  					</h3>
 
 		  					
-		  					<ul className=" pt4 pb3 projectList">
+		  					<ul className="pt4 pb3 projectList">
 		  						<li>RESTful API</li>
 		  						<li>Responsive UI</li>
 		  						<li>Human Face Detection from image URL</li>
@@ -127,45 +199,15 @@ class App extends Component{
 		  						<li>Connected to the Clarifai API </li>
 		  						<li>Store user entries in the database </li>
 		  					</ul>
-		  					<a href="https://smart-sense.herokuapp.com/"><button className="btn">See Live</button></a>
+		  					<a href="https://smart-sense.herokuapp.com/" target='_blank' rel='noopener noreferrer' ><button className="btn">See Live</button></a>
 		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  					  <a href="https://github.com/gur-p-reet/smartSense" style={{fontSize:"20px"}}>Source Code </a>
+		  					  <a href="https://github.com/gur-p-reet/smartSense" target='_blank' rel='noopener noreferrer' style={{fontSize:"24px"}}>Source Code </a>
 {/*		  					  &nbsp;&nbsp;&nbsp;&nbsp;
-		  					  <a href="https://github.com/gur-p-reet/smartSense-Api" style={{fontSize:"20px"}}>Source Code 2</a>
+		  					  <a href="https://github.com/gur-p-reet/smartSense-Api" target='_blank' rel='noopener noreferrer' style={{fontSize:"21px"}}>Source Code </a>
 */}					</div>	
 					</div> 
 
-
-	   	            <h2 className="projectHeading">Protein-Optimization</h2>
-	                <div className="projectItems"> 
-		             
-	                	<div className="projectImg"> 	
-						     <Tilt className=" pa1 pb2 Tilt" options={{max:15 }} >
-								 <img src={project1Img} className="projectImg" alt="logo" /><br />
-							</Tilt>
-				      		<button className="btn" onClick={this.playVideo}> See Live</button> 
-		  					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  					<a href="https://github.com/gur-p-reet/PSP" style={{fontSize:"20px"}}>Source Code</a>	
-			  			</div>	
-		  				<div className="projectDetails">
-		  					<h3 className="f5 projectLogos" > <FaJava style={{color:"#007396"}}/> Java &nbsp; JOGL</h3> 
-		  					<ul className="f4 projectList">
-		  						<li>Interactive user interface</li>
-		  						<li>Multiple Optimization Algorithms</li>
-		  						<li>On-demand Hybridzation</li>
-		  						<li>Multiple input/output options</li>
-		  						<li>Analysis of results</li>
-		  					</ul>
-		  					<div className="pl4 pt3 projectVideo">
-								<video  width="100%" height="auto"  controls>
-									<source src={project1Mp4}  type="video/mp4"/>
-								</video>
-							 </div>
-		  				</div>	
-					</div> 
-					
-
-					<h2 className="projectHeading">Wood-Works</h2>
+					{/* <h2 className="projectHeading">Wood-Works</h2>
 					<div className="projectItems"> 
 	                	<div className="projectImg"> 
 	                		<Tilt className="Tilt" options={{max:15 }} >								
@@ -193,11 +235,11 @@ class App extends Component{
 		  						<li>Place order/Save selected items</li>
 		  						<li>Store user history </li>
 		  					</ul>
-		  					 <a href="https://smart-sense.herokuapp.com/"><button className="btn">See Live</button></a>
-		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gur-p-reet/woodWorks" style={{fontSize:"20px"}}>Source Code</a>
+		  					 <a href="https://smart-sense.herokuapp.com/" target='_blank' rel='noopener noreferrer' ><button className="btn">See Live</button></a>
+		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gur-p-reet/woodWorks" target='_blank' rel='noopener noreferrer' style={{fontSize:"20px"}}>Source Code</a>
 		  				</div>		
 	  					
-					</div> 
+					</div> */}
 
 		    	</projects>
 
@@ -244,18 +286,21 @@ class App extends Component{
 			    <skills >		
 			    	<h2 className="skillsTitle">Data Science</h2>
 					<skills2 className="skills">
-						<h3 className="skillsImg" style={{color:"skyblue"}}> <img src={googleColabLogo} width="80px" alt="" /> <br/><h className="skillsText">Google Colab</h></h3> 
+						 
 						<h3 className="skillsLogo" style={{color:"darkorange"}}> <SiJupyter /> <br/><h className="skillsText">Jupyter Notebook</h></h3> 
 						<h3 className="skillsImg" style={{color:"skyblue"}}> <img src= {pandasLogo} width="100px" alt=""/> <br/><h className="skillsText">Pandas</h></h3> 
-						<h3 className="skillsImg" style={{color:"skyblue"}}> <img src={numpyLogo} width="80px"  alt="" /> <br/><h className="skillsText">Numpy</h></h3> 
+						<h3 className="skillsImg" style={{color:"skyblue"}}> <img src={numpyLogo} width="80px"  alt="" /> <br/><h className="skillsText">Numpy</h></h3>
 						<h3 className="skillsImg" style={{color:"skyblue"}}> <img src={scikitlearnLogo}  width="100px"alt=""/><br/> <h className="skillsText">Scikit-learn</h></h3> 
 						<h3 className="skillsImg" style={{color:"skyblue"}}> <img src={matplotlibLogo} width="100px" alt="" /><br/> <h className="skillsText">Matplotlib</h></h3> 
 						<h3 className="skillsLogo" style={{color:"#FF6F00"}}> <SiTensorflow /> <br/><h className="skillsText">TensorFlow</h></h3> 
+						<h3 className="skillsLogo" style={{color:"#005DA6"}}> <SiPowerbi /> <h className="skillsText" >PowerBi</h></h3>
 						<h3 className="skillsLogo" style={{color:"skyblue"}}> <SiTableau /> <br/><h className="skillsText">Tableau</h></h3>
 						<h3 className="skillsLogo" style={{color:"#005DA6"}}> <SiMicrosoftsqlserver /> <h className="skillsText" >SSMS</h></h3>
 		               {/*	<h3 className="skillsLogo" style={{color:"#3FA037"}}> <SiMongodb /> <h className="skillsText" >MangoDB</h></h3> */}
 		               		<h3 className="skillsLogo" style={{color:"#306998"}}> <SiPostgresql /> <h className="skillsText" >PostgreSQL</h></h3>
 		               	<h3 className="skillsLogo" style={{color:"#306998"}}> <GrHadoop /> <h className="skillsText" >Hadoop</h></h3>
+		               	<h3 className="skillsImg" style={{color:"skyblue"}}> <img src={googleColabLogo} width="80px" alt="" /> <br/><h className="skillsText">Google Colab</h></h3>
+
 
 			  		</skills2>
 					<h2 className="skillsTitle" >Software Development</h2>	
