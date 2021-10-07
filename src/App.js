@@ -40,8 +40,8 @@ class App extends Component{
   	render(){ 
     	return (
 	    <div className="App" >	
-		    <nav className="content">
-	    	    <a href="header"><item className="logo"> <img  src={myLogo} alt="logo"/> </item></a>
+		    <nav className="content" >
+	    	    <a href=""><item className="logo"> <img  src={myLogo} alt="logo"/> </item></a>
 	    		<a href="#projects"> <item className="contentItems"><GrProjects style={{verticalAlign:"middle"}}/> <h className="contentText" style={{verticalAlign:"middle"}}>&nbsp;Projects</h></item></a>
 	    		<a href="#about"><item className="contentItems"> <BsPersonFill style={{color:"skyblue",verticalAlign:"middle"}}/> <h className="contentText">&nbsp;About</h></item></a>
 	    		<a href="#education"><item className="contentItems"> <GiAchievement style={{color:"yellow",verticalAlign:"middle"}}/> <h className="contentText">&nbsp;Education</h></item></a>
@@ -264,19 +264,19 @@ class App extends Component{
 			   	<education className="education">
 			      	<div className="eduItems">
 				      	<h3>
-				      		<a href="https://www.unbc.ca/">University of Northern British Columbia, BC, Canada</a>
+				      		<a href="https://www.unbc.ca/" target='_blank' rel='noopener noreferrer'>University of Northern British Columbia, BC, Canada</a>
 				      	</h3>
 				      	<p>M.Sc. (Computer Sceicne)</p>
 			      	</div>
 			      	<div className="eduItems">
 				    	<h3>
-				      		<a href="https://puchd.ac.in/">Panjab University, Chandigarh, India</a>
+				      		<a href="https://puchd.ac.in/" target='_blank' rel='noopener noreferrer'>Panjab University, Chandigarh, India</a>
 				      	</h3>
 				      	Ph.D., M.Phil. (Physics)
 				      	</div>
 			      	<div className="eduItems">
 				        <h3>
-				      		<a href="http://online.gndu.ac.in/">Guru Nanak Dev University, Punjab, India</a>
+				      		<a href="http://online.gndu.ac.in/" target='_blank' rel='noopener noreferrer'>Guru Nanak Dev University, Punjab, India</a>
 				      	</h3>
 				      	M.Sc. (Physics) 		
 			      	</div>
@@ -329,22 +329,22 @@ class App extends Component{
 			  	<heading id="publications" className="sectionHeading">Publications</heading>
 			    <publications className="publications">	
 				    <ul >		    								
-						<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0022286017306208"> Structure and vibrational spectroscopic study of alpha-tocopherol, <em> Gurpreet Singh, Ritika Sachdeva, Bimal Rai, G. S. S. Saini</em>,
+						<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0022286017306208" target='_blank' rel='noopener noreferrer'> Structure and vibrational spectroscopic study of alpha-tocopherol, <em> Gurpreet Singh, Ritika Sachdeva, Bimal Rai, G. S. S. Saini</em>,
 							Journal of Molecular Structure 1144 (2017) 347-354.</a> </li>
-				      	<li><a href="http://www.sciencedirect.com/science/article/pii/S138614251530295X" className="">Structure, Spectra and Antioxidant Action of Ascorbic Acid Studied by Density Functional Theory, Raman Spectroscopic and
+				      	<li><a href="http://www.sciencedirect.com/science/article/pii/S138614251530295X" target='_blank' rel='noopener noreferrer' className="">Structure, Spectra and Antioxidant Action of Ascorbic Acid Studied by Density Functional Theory, Raman Spectroscopic and
 							Nuclear Magnetic Resonance Techniques, <em>Gurpreet Singh, B. P. Mohanty, G. S. S. Saini</em>,Spectrochimica Acta Part A:
 							Molecular and Biomolecular Spectroscopy, 155 (2016) 61-74. </a></li>
-				      	<li><a href="http://www.sciencedirect.com/science/article/pii/S138614251500534X" className="">Structure and vibrations of glutathione studied by vibrational spectroscopy and density functional theory, <em>Gurpreet Singh,
+				      	<li><a href="http://www.sciencedirect.com/science/article/pii/S138614251500534X" target='_blank' rel='noopener noreferrer' className="">Structure and vibrations of glutathione studied by vibrational spectroscopy and density functional theory, <em>Gurpreet Singh,
 							Sukh Dev Dogra, Sarvpreet Kaur, S. K. Tripathi, Satya Prakash, Bimal Rai, G. S. S. Saini</em>, Spectrochimica Acta Part A:
 							Molecular and Biomolecular Spectroscopy, 149 (2015) 505-515. </a></li>
-				      	<li><a href="http://journals.aps.org/prc/abstract/10.1103/PhysRevC.89.034621" className="">Anomalous deviations from statistical evaporation spectra for the decay of the 73Br and 77Rb compound systems, <em>Maninder
+				      	<li><a href="http://journals.aps.org/prc/abstract/10.1103/PhysRevC.89.034621" target='_blank' rel='noopener noreferrer' className="">Anomalous deviations from statistical evaporation spectra for the decay of the 73Br and 77Rb compound systems, <em>Maninder
 							Kaur, Bivash R. Behera, Gulzar Singh, Varinderjit Singh, Rohit Sandal, A. Kumar, H. Singh, Gurpreet Singh, K. P. Singh, N.
 							Madhavan, S. Nath, A. Jhingan, J. Gehlot, K.S. Golda, P. Sugathan, Davinder Siwal, Sunil Kalkal, E. Prasad, S. Appannababu </em>,
 							Physical Review C(Nuclear), 89 (2014) 034621. </a></li>
-				      	<li><a href="http://www.sciencedirect.com/science/article/pii/S1386142513009517" className=""> Vibrational and electronic Spectroscopic Studies of Melatonin, <em>Gurpreet Singh, J. M. Abbas, Sukh Dev Dogra, Ritika
+				      	<li><a href="http://www.sciencedirect.com/science/article/pii/S1386142513009517" target='_blank' rel='noopener noreferrer' className=""> Vibrational and electronic Spectroscopic Studies of Melatonin, <em>Gurpreet Singh, J. M. Abbas, Sukh Dev Dogra, Ritika
 							Sachdeva, Bimal Rai, S. K. Tripathi, Satya Prakash, Vasant Sathe, G. S. S. Saini</em>, Spectrochimica Acta Part A: Molecular and
 							Biomolecular Spectroscopy, 118 (2014) 73-81.</a></li>
-				      	<li><a href="http://www.sciencedirect.com/science/article/pii/S0924203112000896" className=""> Effects of chemical analytes on zinc tetraphenylporphine thin films studied by vibrational spectroscopy and density functional
+				      	<li><a href="http://www.sciencedirect.com/science/article/pii/S0924203112000896" target='_blank' rel='noopener noreferrer' className=""> Effects of chemical analytes on zinc tetraphenylporphine thin films studied by vibrational spectroscopy and density functional
 							theory, <em>G. S. S. Saini, S. D. Dogra, Gurpreet Singh, S. K. Tripathi, S. Kaur, V. Sathe, B. C. Choudhary</em>, Vibrational
 							Spectroscopy, 61 (2012) 188-198.</a></li>
 				    </ul>
