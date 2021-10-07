@@ -97,7 +97,7 @@ class App extends Component{
 		  					</ul>
 		  					<a href={reportHR} target='_blank' rel='noopener noreferrer'><button className="btn"> Report.pdf</button></a>
 		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  					  <a href="https://github.com/gur-p-reet/ibm-hr-analytics-employee-attrition" target='_blank' rel='noopener noreferrer' style={{fontSize:"21px"}}>Jupyter Notebook</a>
+		  					  <a href="https://github.com/gur-p-reet/hr-analytics-employees-attrition" target='_blank' rel='noopener noreferrer' style={{fontSize:"21px"}}>Jupyter Notebook</a>
 				        </div>	
 					</div> 
 
