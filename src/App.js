@@ -41,7 +41,7 @@ class App extends Component{
     	return (
 	    <div className="App" >	
 		    <nav className="content" >
-	    	    <a href=""><item className="logo"> <img  src={myLogo} alt="logo"/> </item></a>
+	    	    <a href="https://gur-p-reet.github.io/portfolio/"><item className="logo"> <img  src={myLogo} alt="logo"/> </item></a>
 	    		<a href="#projects"> <item className="contentItems"><GrProjects style={{verticalAlign:"middle"}}/> <h className="contentText" style={{verticalAlign:"middle"}}>&nbsp;Projects</h></item></a>
 	    		<a href="#about"><item className="contentItems"> <BsPersonFill style={{color:"skyblue",verticalAlign:"middle"}}/> <h className="contentText">&nbsp;About</h></item></a>
 	    		<a href="#education"><item className="contentItems"> <GiAchievement style={{color:"yellow",verticalAlign:"middle"}}/> <h className="contentText">&nbsp;Education</h></item></a>
@@ -356,10 +356,10 @@ class App extends Component{
 					<h3 ><a href="mailto:gsl.gurpreet@gmail.com"> <GoMail className="contactsLogo"/> 
 					&nbsp;&nbsp;
 					<h className="contactsText">   gsl.gurpreet@gmail.com </h></a> </h3> 
-			      	<h3><a href="https://github.com/gur-p-reet"> <GoMarkGithub className="contactsLogo"/> 
+			      	<h3><a href="https://github.com/gur-p-reet" target='_blank' rel='noopener noreferrer'> <GoMarkGithub className="contactsLogo"/> 
 			      	&nbsp;&nbsp;
 			      	<h className="contactsText"> https://github.com/gur-p-reet</h></a></h3>
-			     	<h3><a href="https://www.linkedin.com/in/gur-p-reet/"> <IoLogoLinkedin className="contactsLogo"/> 
+			     	<h3><a href="https://www.linkedin.com/in/gur-p-reet/" target='_blank' rel='noopener noreferrer'> <IoLogoLinkedin className="contactsLogo"/> 
 			     	&nbsp;&nbsp;
 			     	<h className="contactsText"> https://www.linkedin.com/in/gur-p-reet/</h></a> </h3>
 			    </contacts>
