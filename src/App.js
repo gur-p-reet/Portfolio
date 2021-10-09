@@ -149,12 +149,12 @@ class App extends Component{
 		  				<div className="projectDetails">
 		  					<h3 className="f5 projectLogos" > <FaJava style={{color:"#007396"}}/> Java &nbsp; JOGL</h3> 
 		  					<ul className="pt4 pb3 projectList">
-		  						<li>Interactive user interface for input and output.</li>
-		  						<li>Provided multiple options to choose optimization algorithm.</li>
+		  						<li>Protein structure optimization based on HP Model.</li>
+		  						<li>Interactive user interface for input and output results.</li>
+		  						<li>Multiple options to choose optimization algorithm.</li>
 		  						<li>On-demand hybridzation among different optimization algorithms.</li>
 		  						<li>Flexibility to input amino acid sequence in multiple ways.</li>
-		  						<li>Multiple options to select input parameters.</li>
-		  						<li>Selection based output results and analysis report.</li>
+		  						<li>Multiple options to select input parameters, output results and analysis report.</li>
 		  					</ul>
 		  					<div className="pl4 pt3 projectVideo">
 								<video  width="90%" height="auto"  controls>
