@@ -56,7 +56,7 @@ class App extends Component{
 						<h2>Gurpreet Singh </h2>
 			    	    				 
 			      	<ScrollAnimation animateIn=" hireBox shutterLeft">	
-					    <p className="f3"> Data Analyst </p>	
+					    <p className="f3"> Data Analyst</p>	
 					</ScrollAnimation>      	
 				
 				</header>
@@ -266,7 +266,7 @@ class App extends Component{
 				      	<h3>
 				      		<a href="https://www.unbc.ca/" target='_blank' rel='noopener noreferrer'>University of Northern British Columbia, BC, Canada</a>
 				      	</h3>
-				      	<p>M.Sc. (Computer Sceicne)</p>
+				      	<p>M.Sc. (Computer Science)</p>
 			      	</div>
 			      	<div className="eduItems">
 				    	<h3>
