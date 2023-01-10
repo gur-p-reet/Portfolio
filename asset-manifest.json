@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.717fe35c.chunk.css",
-    "main.js": "/portfolio/static/js/main.c11d635b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c11d635b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.aa911c84.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.aa911c84.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b74dce56.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b74dce56.js.map",
     "static/css/2.ff78d56f.chunk.css": "/portfolio/static/css/2.ff78d56f.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/dog-bread-identification.67afc5bf.pdf": "/portfolio/static/media/dog-bread-identification.67afc5bf.pdf",
     "static/media/express.jsLogo.a6eb5b4b.png": "/portfolio/static/media/express.jsLogo.a6eb5b4b.png",
     "static/media/googlecolabLogo.c8fae4af.png": "/portfolio/static/media/googlecolabLogo.c8fae4af.png",
-    "static/media/gurpreetSingh.d87d877a.pdf": "/portfolio/static/media/gurpreetSingh.d87d877a.pdf",
+    "static/media/gurpreetSingh.4aa461eb.pdf": "/portfolio/static/media/gurpreetSingh.4aa461eb.pdf",
     "static/media/App.css": "/portfolio/static/media/headerBg.b0b946e9.jpg",
     "static/media/matplotlibLogo.dbc89cf5.webp": "/portfolio/static/media/matplotlibLogo.dbc89cf5.webp",
     "static/media/numpyLogo.a6d039ed.svg": "/portfolio/static/media/numpyLogo.a6d039ed.svg",
@@ -36,6 +36,6 @@
     "static/css/2.ff78d56f.chunk.css",
     "static/js/2.3cbf9fe7.chunk.js",
     "static/css/main.717fe35c.chunk.css",
-    "static/js/main.c11d635b.chunk.js"
+    "static/js/main.aa911c84.chunk.js"
   ]
 }
