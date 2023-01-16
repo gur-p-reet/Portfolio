@@ -16,7 +16,7 @@ import matplotlibLogo from './media/matplotlibLogo.webp';
 import expressLogo from './media/express.jsLogo.png';
 import googleColabLogo from './media/googlecolabLogo.png';
 import myPicture from './media/profilePicture.jpg';
-import myResume from './media/gurpreetSingh.pdf';
+import myResume from './media/GurpreetSingh.pdf';
 import Tilt from 'react-tilt';
 
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -272,7 +272,7 @@ class App extends Component{
 				    	<h3>
 				      		<a href="https://puchd.ac.in/" target='_blank' rel='noopener noreferrer'>Panjab University, Chandigarh, India</a>
 				      	</h3>
-				      	Ph.D., M.Phil. (Physics)
+				      	 M.Phil.,Ph.D. (Physics)
 				      	</div>
 			      	<div className="eduItems">
 				        <h3>
