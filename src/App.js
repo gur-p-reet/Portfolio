@@ -56,7 +56,7 @@ class App extends Component{
 						<h2>Gurpreet Singh </h2>
 			    	    				 
 			      	<ScrollAnimation animateIn=" hireBox shutterLeft">	
-					    <p className="f3"> Business Analyst</p>	
+					    <p className="f3"> Data Analyst</p>	
 					</ScrollAnimation>      	
 				
 				</header>
