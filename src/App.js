@@ -88,12 +88,12 @@ class App extends Component{
 		  					</h3>
 		  					
 		  					<ul className=" pt4 pb3 projectList">
-		  						<li>Performed Data Cleaning, Data Transformation and Data Analsis using python programming.</li>
-		  						<li>Utilized Matplotlib and Seaborn libraries for ploting different plots.</li>
-		  						<li>Normalized the data usnig Scikit-learn's MinMaxScaler.</li>
-		  						<li>Data analyis is done with help of multiple types of plots in aroud 50 figures.</li>
-		  						<li>The results of analysis are presented at end of the report which includes relations among themselves different attributes and their effects on attrition.</li>
-		  					    <li>Trained the model using different algorithms (LogisticRegression, RandomForestClassifier and TensorFlow) and checked classification report for each case.</li>
+								<li>Conducted data cleaning, transformation, and analysis using Python programming.</li>
+								<li>Utilized the Matplotlib and Seaborn libraries to create various plots.</li>
+								<li>Normalized the data using Scikit-learn's MinMaxScaler.</li>
+								<li>Performed data analysis by generating approximately 50 figures that encompassed multiple types of plots.</li>
+								<li>The analysis results, presented at the end of the report, demonstrate relationships among different attributes and their impact on attrition.</li>
+								<li>Trained the model using various algorithms, including LogisticRegression, RandomForestClassifier, and TensorFlow, and evaluated the classification report for each case.</li>
 		  					</ul>
 		  					<a href={reportHR} target='_blank' rel='noopener noreferrer'><button className="btn"> Report.pdf</button></a>
 		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -125,12 +125,12 @@ class App extends Component{
 
 		  					
 		  					<ul className=" pt4 pb3 projectList">
-		  						<li>Performed Data tranformation using tenserflow's image converter (turned images into numerica data).</li>
-		  						<li>Performed Data normalization.</li>
-		  						<li>Built the model using Keras sequetial layer using mobilenet_v2 from tenserflow hub.</li>
-		  						<li>Trained the model on more than 10,000 images.</li>
-		  						<li>Tested the model and calcualed the dog bread prediction probalilies.</li>
-		  					</ul>
+							  	<li>Performed Data transformation using TensorFlow's image converter (turned images into numeric data).</li>
+								<li>Performed Data normalization.</li>
+								<li>Built the model using Keras sequential layer using MobileNet_V2 from TensorFlow Hub.</li>
+								<li>Trained the model on more than 10,000 images.</li>
+								<li>Tested the model and calculated the dog breed prediction probabilities.</li>			
+							</ul>
 		  					<a href={projectDB} target='_blank' rel='noopener noreferrer' ><button className="btn">Report.pdf</button></a>
 		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		  					<a href="https://github.com/gur-p-reet/dog-breed-identification" target='_blank' rel='noopener noreferrer' style={{fontSize:"21px"}}>Colab Notebook</a>
@@ -150,11 +150,11 @@ class App extends Component{
 		  					<h3 className="f5 projectLogos" > <FaJava style={{color:"#007396"}}/> Java &nbsp; JOGL</h3> 
 		  					<ul className="pt4 pb3 projectList">
 		  						<li>Protein structure optimization based on HP Model.</li>
-		  						<li>Interactive user interface for input and output results.</li>
-		  						<li>Multiple options to choose optimization algorithm.</li>
-		  						<li>On-demand hybridzation among different optimization algorithms.</li>
-		  						<li>Flexibility to input amino acid sequence in multiple ways.</li>
-		  						<li>Multiple options to select input parameters, output results and analysis report.</li>
+		  						<li>interactive user interface that facilitates easy input and output of results.</li>
+		  						<li>Multiple options for selecting optimization algorithms to cater to specific requirements.</li>
+		  						<li>Hybridization among different optimization algorithms, allowing for enhanced exploration and exploitation of the search space.</li>
+		  						<li>Flexibility in inputting amino acid sequences through various formats and conventions.</li>
+		  						<li>A wide range of options to select input parameters, output results and generate comprehensive analysis reports.</li>
 		  					</ul>
 		  					<div className="pl4 pt3 projectVideo">
 								<video  width="90%" height="auto"  controls>
@@ -192,12 +192,12 @@ class App extends Component{
 
 		  					
 		  					<ul className="pt4 pb3 projectList">
-		  						<li>RESTful API</li>
-		  						<li>Responsive UI</li>
-		  						<li>Human Face Detection from image URL</li>
-		  						<li>Registration/Sign-In form</li>
-		  						<li>Connected to the Clarifai API </li>
-		  						<li>Store user entries in the database </li>
+							  	<li>Implemented a RESTful API to facilitate seamless communication between client and server.</li>
+								<li>Developed a responsive user interface (UI) that adapts to different devices and screen sizes.</li>
+								<li>Implemented human face detection from image URLs using advanced computer vision techniques.</li>
+								<li>Designed and implemented a user-friendly registration/sign-in form for seamless user authentication.</li>
+								<li>Established integration with the Clarifai API to leverage powerful image recognition and analysis capabilities.</li>
+								<li>Implemented database functionality to securely store and manage user entries for future reference.</li>
 		  					</ul>
 		  					<a href="https://smart-sense.herokuapp.com/" target='_blank' rel='noopener noreferrer' ><button className="btn">See Live</button></a>
 		  					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -251,11 +251,14 @@ class App extends Component{
 	    			<about className="about">
 		    	       <img src={myPicture} className="profileImg " alt="Profile Pucture" />
 				      	<p className="georgia">
-				      	Hi, my Name is Gurpreet. I am data analyst and researcher, passionate about working with organisations 
-				      	that want to make effective use of their data; I have an extensive background working with large and
-				      	varied datasets using advanced statistical methods.	Finding patterns and getting insights out of data is something that I really enjoy.
-				      	<br/>  I recently expanded my skill set to topics including time series analysis and neural networks,
-						and I am excited to keep learning new methods in a challenging and fast-paced environment.
+				      	 Hi, my Name is Gurpreet. As a data analyst and researcher, I am driven by a passion
+						 for helping organizations harness the power of their data effectively.  
+						 With a wealth of experience working with diverse and extensive datasets, 
+						 I am well-versed in employing advanced statistical methods to uncover valuable insights and identify meaningful patterns.
+				      	<br/>  I have recently expanded my skill set to include areas such as time series analysis and neural networks.
+						 Embracing these new techniques, I eagerly look forward to continuously learning and applying innovative methods 
+						 in a dynamic and fast-paced environment. I find great joy in extracting insights from data, 
+						 and I'm excited about the opportunity to contribute to challenging projects
 						</p>
 					</about>	
 				</ScrollAnimation>		
