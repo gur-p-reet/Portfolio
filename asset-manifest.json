@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.717fe35c.chunk.css",
-    "main.js": "/portfolio/static/js/main.e0e90aaa.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e0e90aaa.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.c611115a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c611115a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b74dce56.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b74dce56.js.map",
     "static/css/2.ff78d56f.chunk.css": "/portfolio/static/css/2.ff78d56f.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.ff78d56f.chunk.css.map": "/portfolio/static/css/2.ff78d56f.chunk.css.map",
     "static/css/main.717fe35c.chunk.css.map": "/portfolio/static/css/main.717fe35c.chunk.css.map",
     "static/js/2.3cbf9fe7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3cbf9fe7.chunk.js.LICENSE.txt",
-    "static/media/GurpreetSingh.c33967c0.pdf": "/portfolio/static/media/GurpreetSingh.c33967c0.pdf",
+    "static/media/GurpreetSingh.293479b4.pdf": "/portfolio/static/media/GurpreetSingh.293479b4.pdf",
     "static/media/IBM HR Analytics Employee Attrition and Performance.6e517293.pdf": "/portfolio/static/media/IBM HR Analytics Employee Attrition and Performance.6e517293.pdf",
     "static/media/dog-bread-identification.67afc5bf.pdf": "/portfolio/static/media/dog-bread-identification.67afc5bf.pdf",
     "static/media/express.jsLogo.a6eb5b4b.png": "/portfolio/static/media/express.jsLogo.a6eb5b4b.png",
@@ -36,6 +36,6 @@
     "static/css/2.ff78d56f.chunk.css",
     "static/js/2.3cbf9fe7.chunk.js",
     "static/css/main.717fe35c.chunk.css",
-    "static/js/main.e0e90aaa.chunk.js"
+    "static/js/main.c611115a.chunk.js"
   ]
 }
