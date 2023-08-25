@@ -195,7 +195,7 @@ class App extends Component{
 							  	<li>Implemented a RESTful API to facilitate seamless communication between client and server.</li>
 								<li>Developed a responsive user interface (UI) that adapts to different devices and screen sizes.</li>
 								<li>Implemented human face detection from image URLs using advanced computer vision techniques.</li>
-								<li>Designed and implemented a user-friendly registration/sign-in form for seamless user authentication.</li>
+								<li>Designed   and implemented a user-friendly registration/sign-in form for seamless user authentication.</li>
 								<li>Established integration with the Clarifai API to leverage powerful image recognition and analysis capabilities.</li>
 								<li>Implemented database functionality to securely store and manage user entries for future reference.</li>
 		  					</ul>
